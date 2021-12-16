@@ -1,0 +1,27 @@
+.mainpage{
+  padding: 10px;
+  padding-left: 40%;
+}
+.profilePic{
+  display: block;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  width: 200px;
+  border-radius: 10px;
+}
+.name{
+  color: rgb(16, 160, 237);
+  padding-top: 10 px;
+  font-weight: bolder;
+}
+h6{
+  font-size: 10px;
+  color:rgba(133, 103, 103, 0.761);
+  padding: 0px;
+  margin: 0px;
+}
+h5{
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 0%;
+}
