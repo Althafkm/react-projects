@@ -23,6 +23,7 @@
     background-color: rgb(122, 139, 165);
     border: none;
     cursor: pointer;
+    font-size: 50px;
   }
   .name-id{
     text-align: center;
