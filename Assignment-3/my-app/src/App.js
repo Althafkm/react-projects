@@ -51,6 +51,9 @@ function App(props) {
           <p>{employee.description} </p>
 
         </div>
+        <div  className='btn3'>
+          <button className='btn11' type='submit' value='<'> {'>'}</button>
+        </div>
 
       </div>
     </div>

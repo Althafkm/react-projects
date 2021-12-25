@@ -1,0 +1,105 @@
+.App {
+ 
+  padding: 10px;
+}
+
+.head{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(245, 247, 252);
+  height: auto;
+  border-style: solid;
+  border-width: 1px 0px 1px 0px ;
+  border-color: rgb(165, 158, 158);
+}
+.btn1{
+  text-align: left;
+  width: 33%;
+  padding: 20px 10px 20px 10px;
+  
+ 
+}
+.btn11{
+  background-color: rgb(245, 247, 252);
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+}
+.name-id{
+  text-align: center;
+  width: 33%;
+  
+}
+.btn2{
+  text-align: right;
+  width: 33%;
+  padding: 20px 10px 20px 10px;
+}
+.btn22{
+  color:white;
+  background-color: black;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+}
+.customer-info ,.order-info, .product-list{
+ padding-left: 10px;
+  margin: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(165, 158, 158);
+  border-radius: 5px;
+}
+.order-info{
+  display: flex;
+  background-color: rgb(227, 232, 241);
+  height: auto;
+}
+.status{
+  width: 45%;
+}
+.door{
+  width:40%
+}
+.product-list{
+  display: flex;
+  
+}
+img{
+  width:100px;
+  padding: 10px;
+}
+.check{
+  padding:50px 10px 50px 10px;
+}
+.btn3{
+  text-align: right;
+  width: 33%;
+  padding: 20px 10px 20px 10px;
+  
+ 
+}
+@media only screen and (max-width: 320px){
+  .order-info{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(227, 232, 241);
+    height: auto;
+  }
+
+  .head{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .product-list{
+    display: flex;
+    flex-direction: column;
+  }
+  .customer-info{
+    display: flex;
+    flex-direction: column;
+  }
+}
